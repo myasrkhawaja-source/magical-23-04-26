@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #ffe6f0, #e6f7ff);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  background: #ff66b2;
+  color: rgb(5, 5, 5);
+  border: solid 5px #020102;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d41414;
+}
+
+.hidden {
+  display: none;
+}
+
+#formContainer {
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: #020102 solid 8px;
+}
+
+input, select, textarea {
+  width: 90%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(4, 4, 4);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
